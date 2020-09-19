@@ -22,6 +22,6 @@ To make a development build, use ``npm run dev``.
 
 ## Where can I edit the typescript code?
 
-Typescript code is located in folder ``./src/script/index.ts``.
+Typescript code is located in folder ``src/script/index.ts``.
 
 To create a new project, delete the Example Scene and adjust ``src/script/index.ts``.
