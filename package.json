@@ -1,0 +1,30 @@
+{
+    "name": "wuerfelgame",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev-server": "concurrently -k \"webpack --watch\" \"live-server --open=dist/index.html --watch=dist,dist/style,dist/script/b.js\"",
+        "dev": "webpack",
+        "build": "webpack --mode production"
+    },
+    "author": "mmnn",
+    "license": "ISC",
+    "devDependencies": {
+        "copy-webpack-plugin": "^6.1.1",
+        "live-server": "^1.2.1",
+        "terser-webpack-plugin": "^4.2.1",
+        "three": "^0.120.1",
+        "ts-lint": "^4.5.1",
+        "ts-loader": "^8.0.3",
+        "typescript": "^4.0.2",
+        "webpack": "^4.44.2",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "dependencies": {
+        "@types/three": "^0.103.2",
+        "concurrently": "^5.3.0"
+    }
+}
